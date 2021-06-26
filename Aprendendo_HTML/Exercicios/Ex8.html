@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8</title>
+</head>
+<body>
+    <header>
+        <h1>Heladeria</h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend> Datos clientes</legend> <br>
+            Nombre cliente<input type="text"><br>
+            Telefono cliente<input type="text"><br>
+            Email cliente <input type="email"><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Elige tu helado</legend>
+            <div>
+                <h1>Sabor</h1>
+                <input type="radio" name="sabor" id="Vainilla" value="Vainilla">Vainilla<br>
+                <input type="radio" name="sabor" id="Chocolate" value="Chocolate">Chocolate<br>
+                <input type="radio" name="sabor" id="Mixto" value="Mixto">Mixto<br>
+            </div>
+            <div>
+                <h1>Recipiente</h1>
+                <input type="radio" name="Recipiente" id="Copa" value="Copa">Copa<br>
+                <input type="radio" name="Recipiente" id="Tarrina" value="Tarrina">Tarrina<br>
+            </div>
+            <div>
+                <h1>Extra</h1>
+                <input type="checkbox" name="Extra[]" id="Caramelo" value="Caramelo">Caramelo<br>
+                <input type="checkbox" name="Extra[]" id="KitKat" value="KitKat">KitKat<br>
+                <input type="checkbox" name="Extra[]" id="Chocolate" value="Chocolate">Chocolate<br>
+            </div>
+        </fieldset>
+        <br>
+        <input type="button" value="Enviar">
+    </form>
+    
+</body>
+</html>
